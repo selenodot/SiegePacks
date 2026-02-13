@@ -73,11 +73,11 @@ jobs:
       - name: Checkout repository
         run: |
           git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} .
-          git checkout SOT
+          git checkout main
 
       - name: Update SOT version and hash
         run: |
-          git pull origin SOT
+          git pull origin main
           SHA1=${{ needs.build.outputs.SHA1 }}
           NEXT_VERSION=${{ needs.build.outputs.NEXT_VERSION }}
 
@@ -89,4 +89,4 @@ jobs:
 
           git add eventData.txt
           git commit -m "Increment SOT version to $NEXT_VERSION and update hash"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} SOT
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} main
