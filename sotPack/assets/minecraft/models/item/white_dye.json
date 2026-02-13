@@ -1,0 +1,13 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/white_dye"
+	},
+	"display": {
+		"head": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -42.75, 0],
+			"scale": [0.75, 0.75, 0.75]
+		}
+	}
+}
