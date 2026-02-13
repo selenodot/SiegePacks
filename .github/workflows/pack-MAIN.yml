@@ -1,0 +1,94 @@
+name: MAIN Pack
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: main-pack
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build MAIN Pack
+    runs-on: ubuntu-latest
+    outputs:
+      NEXT_VERSION: ${{ steps.get_version.outputs.next_version }}
+      EVENT_NUM: ${{ steps.get_version.outputs.event_num }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Precompute event number and MAIN version
+        id: get_version
+        run: |
+          EVENT_NUM=$(grep 'eventNumber:' eventData.txt | cut -d':' -f2 | tr -d ' ')
+          MAIN_VERSION=$(grep 'MAIN:' eventData.txt | awk '{print $2}')
+          NEXT_VERSION=$((MAIN_VERSION + 1))
+          echo "NEXT_VERSION=$NEXT_VERSION" >> $GITHUB_OUTPUT
+          echo "EVENT_NUM=$EVENT_NUM" >> $GITHUB_OUTPUT
+
+      - name: Generate README.txt
+        run: |
+          echo "Hi, this pack is pretty much just MCC assets. Anything in the seleno folder is under my copyright (MIT License)." > mainPack/README.txt
+          echo "We did use the christmas and halloween music from BMCC, so as per their copyright I am saying this here." > mainPack/README.txt
+
+          echo "" >> mainPack/README.txt
+          echo "We do not claim ownership of any of the assets used, taking assets from this pack is allowed however do not claim it is your own." >> mainPack/README.txt
+          echo "" >> mainPack/README.txt
+          echo "This pack is for Siege Championships ${{ steps.get_version.outputs.event_num }} as version #${{ steps.get_version.outputs.NEXT_VERSION }} of the MAIN Pack" >> mainPack/README.txt
+
+      - name: Create MAIN ZIP
+        run: |
+          rm -f BMCC-main.zip
+          cd mainPack
+          zip -r ../BMCC-main.zip . -x ".git/*" ".github/*"
+          cd ..
+
+      - name: Compute SHA-1 hash and save as artifact
+        run: |
+          SHA1=$(sha1sum BMCC-main.zip | awk '{ print $1 }')
+          echo "$SHA1" > bmcc-main.hash
+
+      - name: Upload MAIN ZIP to release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: mainLatest
+          files: BMCC-main.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload hash artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: main-hash
+          path: bmcc-main.hash
+
+  update-version-and-hash:
+    name: Update MAIN Version and Hash
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download hash artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: main-hash
+          path: .
+
+      - name: Update MAIN version and hash in root file
+        run: |
+          git pull origin main
+          SHA1=$(cat bmcc-main.hash)
+          NEXT_VERSION=${{ needs.build.outputs.NEXT_VERSION }}
+          EVENT_NUM=${{ needs.build.outputs.EVENT_NUM }}
+          sed -i "s/^[[:space:]]*MAIN:.*/    MAIN: $NEXT_VERSION/" eventData.txt
+          sed -i "s/^[[:space:]]*MAIN_HASH:.*/    MAIN_HASH: $SHA1/" eventData.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add eventData.txt
+          git commit -m "Increment MAIN version to $NEXT_VERSION and update hash"
+          git push origin main

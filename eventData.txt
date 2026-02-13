@@ -1,0 +1,7 @@
+eventNumber: 1
+
+Packs:
+
+  Main:
+    MAIN: 
+    MAIN_HASH: 9150e9797bcb7af22b389dff06babdce11a33743
