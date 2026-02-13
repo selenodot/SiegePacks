@@ -1,1 +1,381 @@
-{}
+{
+    "smallcoins": {
+    "sounds": [
+      "shared/smallcoins"
+    ],
+    "category": "master"
+  },
+  "sand_falling": {
+    "category": "master",
+    "sounds": [
+      "mcc/sand_falling1",
+      "mcc/sand_falling2"
+    ]
+  },
+  "sandtimer_10sec": {
+    "category": "master",
+    "sounds": [
+      "mcc/sandtimer_10sec"
+    ]
+  },
+  "sandtimer_20sec": {
+    "category": "master",
+    "sounds": [
+      "mcc/sandtimer_20sec"
+    ]
+  },
+  "sandtimer_30sec": {
+    "category": "master",
+    "sounds": [
+      "mcc/sandtimer_30sec"
+    ]
+  },
+  "lock_in": {
+    "category": "master",
+    "sounds": [
+      "mcc/lock_in"
+    ]
+  },
+  "tomb_open": {
+    "sounds": [
+      {
+        "name": "mcc/tomb_open",
+        "volume": 0.5
+      }
+    ]
+  },
+  "door_wood": {
+    "category": "master",
+    "sounds": [
+      "mcc/door_wood"
+    ]
+  },
+  "door_vault": {
+    "category": "master",
+    "sounds": [
+      "mcc/door_vault"
+    ]
+  },
+  "teamvault_open": {
+    "sounds": [
+      "mcc/teamvault_open"
+    ]
+  },
+  "vault_open": {
+    "sounds": [
+      "mcc/vault_open"
+    ]
+  },
+  "coin_deposit": {
+    "sounds": [
+      "shared/bigcoins"
+    ]
+  },
+  "button_push1": {
+    "sounds": [
+      "mcc/button_push1"
+    ]
+  },
+  "button_push2": {
+    "sounds": [
+      "mcc/button_push2"
+    ]
+  },
+  "sand_place": {
+    "sounds": [
+      "mcc/sand_place1",
+      "mcc/sand_place2",
+      "mcc/sand_place3"
+    ]
+  },
+  "sand_full": {
+    "sounds": [
+      "mcc/sand_full"
+    ]
+  },
+  "key_pickup": {
+    "sounds": [
+      "mcc/key_pickup"
+    ]
+  },
+  "key_loop": {
+    "sounds": [
+      "mcc/key_loop"
+    ]
+  },
+  "gate_open": {
+    "sounds": [
+      "mcc/gate_open"
+    ]
+  },
+  "gate_close": {
+    "sounds": [
+      "mcc/gate_close"
+    ]
+  },
+  "gold_drop": {
+    "sounds": [
+      "mcc/gold_drop1",
+      "mcc/gold_drop2",
+      "mcc/gold_drop3"
+    ]
+  },
+  "statue_break": {
+    "sounds": [
+      "mcc/statue_break1",
+      "mcc/statue_break2",
+      "mcc/statue_break3"
+    ]
+  },
+  "key_pickup_gold": {
+    "sounds": [
+      "mcc/key_pickup_gold"
+    ]
+  },
+  "key_pickup_vault": {
+    "sounds": [
+      "mcc/key_pickup_vault"
+    ]
+  },
+  "puzzle_complete": {
+    "category": "master",
+    "sounds": [
+      "mcc/puzzle_complete"
+    ]
+  },
+  "sand_sacrifice": {
+    "category": "master",
+    "sounds": [
+      "mcc/sand_sacrifice"
+    ]
+  },
+  "block.snow.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "attenuation_distance": 4,
+        "name": "mcc/stoneblock_break",
+        "volume": 0.8
+      }
+    ]
+  },
+  "music.sands_of_time": {
+    "sounds": [
+      {
+        "name": "mcc/sands_of_time_main",
+        "stream": true,
+        "volume": 0.7,
+        "attenuation_distance": 0
+      }
+    ]
+  },
+  "npc_cheering": {
+    "sounds": [
+      {
+        "attenuation_distance": 64,
+        "name": "shared/npc_cheering/npc_cheering_1",
+        "volume": 0.5
+      },
+      {
+        "attenuation_distance": 64,
+        "name": "shared/npc_cheering/npc_cheering_2",
+        "volume": 0.5
+      },
+      {
+        "attenuation_distance": 64,
+        "name": "shared/npc_cheering/npc_cheering_3",
+        "volume": 0.5
+      },
+      {
+        "attenuation_distance": 64,
+        "name": "shared/npc_cheering/npc_cheering_4",
+        "volume": 0.5
+      },
+      {
+        "attenuation_distance": 64,
+        "name": "shared/npc_cheering/npc_cheering_5",
+        "volume": 0.5
+      },
+      {
+        "attenuation_distance": 64,
+        "name": "shared/npc_cheering/npc_cheering_6",
+        "volume": 0.5
+      }
+    ]
+  },
+  "block.portal.ambient": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/silence"
+      }
+    ]
+  },
+  "ambient.cave.cave": {
+    "category": "ambient",
+    "sounds": [
+      "music/game/silence"
+    ]
+  },
+  "music_disc.blocks": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/gameintro",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.cat": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/overtimeintro",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.chirp": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/overtimeloop",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.far": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/roundendmusic",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.mall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/gameendmusic",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "123": {
+    "category": "master",
+    "sounds": [
+      "shared/123"
+    ]
+  },
+  "textpop": {
+    "category": "master",
+    "sounds": [
+      "shared/textpop"
+    ]
+  },
+  "go": {
+    "category": "master",
+    "sounds": [
+      "shared/go"
+    ]
+  },
+  "clockticknormal": {
+    "category": "master",
+    "sounds": [
+      "shared/clockticknormal"
+    ]
+  },
+  "clocktickhigh": {
+    "category": "master",
+    "sounds": [
+      "shared/clocktickhigh"
+    ]
+  },
+  "bigcoins": {
+    "category": "master",
+    "sounds": [
+      "shared/bigcoins"
+    ]
+  },
+  "scoreacquired": {
+    "category": "master",
+    "sounds": [
+      "shared/scoreacquired"
+    ]
+  },
+  "scoreunacquired": {
+    "category": "master",
+    "sounds": [
+      "shared/scoreunacquired"
+    ]
+  },
+  "teameliminated": {
+    "category": "master",
+    "sounds": [
+      "shared/teameliminated"
+    ]
+  },
+  "objectivecomplete": {
+    "category": "master",
+    "sounds": [
+      "shared/objectivecomplete"
+    ]
+  },
+  "bigscoreacquired": {
+    "category": "master",
+    "sounds": [
+      "shared/bigscoreacquired"
+    ]
+  },
+  "mapalert": {
+    "category": "master",
+    "sounds": [
+      "shared/mapalert"
+    ]
+  },
+  "mapupdate": {
+    "category": "master",
+    "sounds": [
+      "shared/mapupdate"
+    ]
+  },
+  "roundend": {
+    "category": "master",
+    "sounds": [
+      "shared/roundend"
+    ]
+  },
+  "enemy_complete": {
+    "category": "master",
+    "sounds": [
+      "shared/enemy_complete"
+    ]
+  },
+  "enemy_lockout": {
+    "category": "master",
+    "sounds": [
+      "shared/enemy_lockout"
+    ]
+  },
+  "shrink": {
+    "sounds": [
+      {
+        "attenuation_distance": 64,
+        "name": "shared/shrink",
+        "volume": 0.2
+      }
+    ]
+  },
+  "grace_period": {
+    "category": "master",
+    "sounds": [
+      "shared/grace_period"
+    ]
+  }
+}
