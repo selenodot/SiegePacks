@@ -3,6 +3,9 @@ name: MAIN Pack
 on:
   workflow_dispatch:
 
+permissions:
+contents: write
+
 concurrency:
   group: main-pack
   cancel-in-progress: true
