@@ -1,0 +1,4 @@
+{
+  "textures": { "layer0": "mcc:event_interface/settings/nameplate_gold" },
+  "parent": "item/generated"
+}

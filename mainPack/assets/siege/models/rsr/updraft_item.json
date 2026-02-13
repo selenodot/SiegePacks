@@ -1,0 +1,7 @@
+{
+  "credit": "Made by Noxcrew | Used by Pe3ep (Ruther)",
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "models/rsr/updraft"
+  }
+}

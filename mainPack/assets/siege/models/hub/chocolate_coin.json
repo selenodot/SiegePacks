@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "siege:custom/hub/chocolate_coin"
+  },
+  "credit": "Made by Noxcrew | Used by Pe3ep (Ruther)"
+}

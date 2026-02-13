@@ -1,0 +1,4 @@
+{
+  "textures": { "layer0": "mcc:event_interface/flight_speed" },
+  "parent": "item/generated"
+}

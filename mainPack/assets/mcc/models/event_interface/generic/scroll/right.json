@@ -1,0 +1,4 @@
+{
+  "textures": { "layer0": "mcc:event_interface/generic/scroll/right" },
+  "parent": "item/generated"
+}

@@ -1,0 +1,95 @@
+{
+  "display": {
+    "head": {
+      "translation": [
+        0,
+        -30.5,
+        0
+      ],
+      "scale": [
+        1.6,
+        1.6,
+        1.6
+      ]
+    }
+  },
+  "texture_size": [
+    256,
+    256
+  ],
+  "textures": {
+    "0": "models/hub/bar",
+    "particle": "models/hub/bar"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        15
+      ],
+      "to": [
+        16,
+        32,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            15
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.0625,
+            2
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.9375,
+            0,
+            1,
+            2
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1,
+            0.0625
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            1.9375,
+            1,
+            2
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "credit": "Made by Noxcrew | Used by Pe3ep (Ruther)"
+}

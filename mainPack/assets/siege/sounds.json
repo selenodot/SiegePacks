@@ -1,0 +1,538 @@
+{
+  "games.ace_race.aqua_launcher": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "siege:games.ace_race.aqua_launcher.3",
+        "volume": 0.5,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "siege:games.ace_race.aqua_launcher.1",
+        "volume": 0.5,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "siege:games.ace_race.aqua_launcher.2",
+        "volume": 0.5,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "games.ace_race.jump_pad": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "siege:games.ace_race.jump_pad.1",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "siege:games.ace_race.jump_pad.3",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "siege:games.ace_race.jump_pad.2",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "games.ace_race.speed_boost": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "siege:games.ace_race.speed_boost.1",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "siege:games.ace_race.speed_boost.2",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "siege:games.ace_race.speed_boost.3",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "games.ace_race.wing_ring": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "siege:games.ace_race.wing_ring.2",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "siege:games.ace_race.wing_ring.1",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "siege:games.ace_race.wing_ring.3",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "games.global.countdown.123": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "siege:games.global.countdown.123",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "games.global.countdown.go": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "siege:games.global.countdown.go",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "games.ace_race.up_pad": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "siege:games.ace_race.up_pad",
+        "volume": 0.7,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "games.global.music.gameintro": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "siege:games.global.music.gameintro",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "games.global.objective.objective_completed": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "siege:games.global.objective.objective_completed",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "decision_dome.game_selected": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "siege:decision_dome.game_selected",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "games.global.objective.map.update": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "siege:games.global.objective.map.update",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "games.global.score.acquired": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "siege:games.global.score.acquired",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "games.global.music.roundendmusic": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "siege:games.global.music.roundendmusic",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "ar.slow_field": { "sounds": ["siege:slow_field"] },
+  "ar.trident_zone": { "sounds": ["siege:trident_zone"] },
+  "ar.dolphin_zone": { "sounds": ["siege:dolphin_zone"] },
+  "ar.elytra_zone": { "sounds": ["siege:elytra_zone"] },
+  "ar.remove_item": { "sounds": ["siege:ar/remove_item"] },
+  "ar.turtle_bonk": {
+    "sounds": [
+      "siege:ar/turtle_bonk1",
+      "siege:ar/turtle_bonk2",
+      "siege:ar/turtle_bonk3"
+    ]
+  },
+  "ar.wall_slide_loop": {
+    "sounds": [
+      "siege:ar/wall_slide_loop1",
+      "siege:ar/wall_slide_loop2",
+      "siege:ar/wall_slide_loop3",
+      "siege:ar/wall_slide_loop4"
+    ]
+  },
+  "main.123": { "sounds": ["siege:main/123"] },
+  "main.bigcoins": { "sounds": ["siege:main/bigcoins"] },
+  "main.bigscoreacquired": { "sounds": ["siege:main/bigscoreacquired"] },
+  "main.border_shrink": { "sounds": ["siege:main/border_shrink"] },
+  "main.duelists_announce": { "sounds": ["siege:main/duelists_announce"] },
+  "main.bridge_extend": { "sounds": ["siege:main/bridge_extend"] },
+  "main.click": {
+    "sounds": [
+      "siege:main/click1",
+      "siege:main/click2",
+      "siege:main/click3",
+      "siege:main/click4",
+      "siege:main/click5",
+      "siege:main/click6",
+      "siege:main/click7"
+    ]
+  },
+  "main.clocktickhigh": { "sounds": ["siege:main/clocktickhigh"] },
+  "main.clockticknormal": { "sounds": ["siege:main/clockticknormal"] },
+  "main.ddspin": {
+    "sounds": [
+      "siege:main/ddspin1",
+      "siege:main/ddspin2",
+      "siege:main/ddspin3",
+      "siege:main/ddspin4",
+      "siege:main/ddspin5",
+      "siege:main/ddspin6",
+      "siege:main/ddspin7",
+      "siege:main/ddspin8",
+      "siege:main/ddspin9",
+      "siege:main/ddspin10",
+      "siege:main/ddspin11",
+      "siege:main/ddspin12",
+      "siege:main/ddspin13",
+      "siege:main/ddspin14",
+      "siege:main/ddspin15",
+      "siege:main/ddspin16"
+    ]
+  },
+  "main.dunk": { "sounds": ["siege:main/dunk"] },
+  "main.elevator_break": { "sounds": ["siege:main/elevator_break"] },
+  "main.elevator_creak": {
+    "sounds": [
+      "siege:main/elevator_creak1",
+      "siege:main/elevator_creak2",
+      "siege:main/elevator_creak3"
+    ]
+  },
+  "main.eliminationpop": { "sounds": ["siege:main/eliminationpop"] },
+  "main.enemy_complete": { "sounds": ["siege:main/enemy_complete"] },
+  "main.enemy_lockout": { "sounds": ["siege:main/enemy_lockout"] },
+  "main.eventbegin": { "sounds": ["siege:main/eventbegin"] },
+  "main.gameendmusic": { "sounds": ["siege:main/gameendmusic"] },
+  "main.gameintro": { "sounds": ["siege:main/gameintro"] },
+  "main.gamereveal": { "sounds": ["siege:main/gamereveal"] },
+  "main.gameselected": { "sounds": ["siege:main/gameselected"] },
+  "main.go": { "sounds": ["siege:main/go"] },
+  "main.grace_period": { "sounds": ["siege:main/grace_period"] },
+  "main.hubtick": { "sounds": ["siege:main/hubtick"] },
+  "main.mapalert": { "sounds": ["siege:main/mapalert"] },
+  "main.mapupdate": { "sounds": ["siege:main/mapupdate"] },
+  "main.mapupdatecomplete1": { "sounds": ["siege:main/mapupdatecomplete1"] },
+  "main.mapupdatecomplete2": { "sounds": ["siege:main/mapupdatecomplete2"] },
+  "main.multiplier_increase": {
+    "sounds": ["siege:main/multiplier_increase"]
+  },
+  "main.newgames_reveal": { "sounds": ["siege:main/newgames_reveal"] },
+  "main.notcrew": { "sounds": ["siege:main/notcrew"] },
+  "main.npc_cheering": {
+    "sounds": [
+      "siege:main/npc_cheering_1",
+      "siege:main/npc_cheering_2",
+      "siege:main/npc_cheering_3",
+      "siege:main/npc_cheering_4",
+      "siege:main/npc_cheering_5",
+      "siege:main/npc_cheering_6"
+    ]
+  },
+  "main.countdown_announce": {
+    "sounds": ["siege:main/countdown_announce"]
+  },
+  "ar.aqua_jet": {
+    "sounds": ["siege:aqua_jet1", "siege:aqua_jet2", "siege:aqua_jet3"]
+  },
+  "ar.jump_big": {
+    "sounds": ["siege:jump_big1", "siege:jump_big2", "siege:jump_big3"]
+  },
+  "gr.button_push": {
+    "sounds": ["siege:gr/button_push1", "siege:gr/button_push2"]
+  },
+  "gr.golf_knockback": {
+    "sounds": [
+      "siege:gr/golf_knockback1",
+      "siege:gr/golf_knockback2",
+      "siege:gr/golf_knockback3"
+    ]
+  },
+  "gr.key_loop": {
+    "sounds": [
+      "siege:gr/key_loop1",
+      "siege:gr/key_loop2",
+      "siege:gr/key_loop3",
+      "siege:gr/key_loop4",
+      "siege:gr/key_loop5"
+    ]
+  },
+  "gr.target_hit": {
+    "sounds": [
+      "siege:gr/target_hit1",
+      "siege:gr/target_hit2",
+      "siege:gr/target_hit3"
+    ]
+  },
+  "gr.blastoff": { "sounds": ["siege:gr/blastoff"] },
+  "gr.cake_eat": { "sounds": ["siege:gr/cake_eat"] },
+  "gr.finish": { "sounds": ["siege:gr/finish"] },
+  "gr.food_correct": { "sounds": ["siege:gr/food_correct"] },
+  "gr.grid_runners_intro": { "sounds": ["siege:gr/grid_runners_intro"] },
+  "gr.grid_runners_win": { "sounds": ["siege:gr/grid_runners_win"] },
+  "gr.key_pickup": { "sounds": ["siege:gr/key_pickup"] },
+  "gr.key_unlock": { "sounds": ["siege:gr/key_unlock"] },
+  "gr.playersrequired": { "sounds": ["siege:gr/playersrequired"] },
+  "gr.playersrequired_complete": {
+    "sounds": ["siege:gr/playersrequired_complete"]
+  },
+  "gr.room_cake": { "sounds": ["siege:gr/room_cake"] },
+  "gr.room_clean": { "sounds": ["siege:gr/room_clean"] },
+  "gr.room_complete": { "sounds": ["siege:gr/room_complete"] },
+  "gr.room_complete_enemy": { "sounds": ["siege:gr/room_complete_enemy"] },
+  "gr.room_cook": { "sounds": ["siege:gr/room_cook"] },
+  "gr.room_copy": { "sounds": ["siege:gr/room_copy"] },
+  "gr.room_crossing": { "sounds": ["siege:gr/room_crossing"] },
+  "gr.room_dtb": { "sounds": ["siege:gr/room_dtb"] },
+  "gr.room_golf": { "sounds": ["siege:gr/room_golf"] },
+  "gr.room_key": { "sounds": ["siege:gr/room_key"] },
+  "gr.room_lamps": { "sounds": ["siege:gr/room_lamps"] },
+  "gr.room_target": { "sounds": ["siege:gr/room_target"] },
+  "gr.room_title": { "sounds": ["siege:gr/room_title"] },
+  "gr.teammate_finishline": { "sounds": ["siege:gr/teammate_finishline"] },
+  "md.bow": {
+    "sounds": [
+      "siege:meltdown/bow1",
+      "siege:meltdown/bow2",
+      "siege:meltdown/bow3"
+    ]
+  },
+  "md.ricochet": {
+    "sounds": [
+      "siege:meltdown/ricochet1",
+      "siege:meltdown/ricochet2",
+      "siege:meltdown/ricochet3"
+    ]
+  },
+  "md.bow_hit": { "sounds": ["siege:meltdown/bow_hit"] },
+  "md.heater_break": { "sounds": ["siege:meltdown/heater_break"] },
+  "md.heater_loop_1000ms": {
+    "sounds": ["siege:meltdown/heater_loop_1000ms"]
+  },
+  "md.heater_place": { "sounds": ["siege:meltdown/heater_place"] },
+  "md.heater_recharge": { "sounds": ["siege:meltdown/heater_recharge"] },
+  "md.meltdown_alarm_loop_1000ms": {
+    "sounds": ["siege:meltdown/meltdown_alarm_loop_1000ms"]
+  },
+  "md.meltdown_alarm_loop_1500ms": {
+    "sounds": ["siege:meltdown/meltdown_alarm_loop_1500ms"]
+  },
+  "md.meltdown_alarm_start_1000ms": {
+    "sounds": ["siege:meltdown/meltdown_alarm_start_1000ms"]
+  },
+  "md.meltdown_alarm_start_3000ms": {
+    "sounds": ["siege:meltdown/meltdown_alarm_start_3000ms"]
+  },
+  "md.meltdown_entrance": { "sounds": ["siege:meltdown/meltdown_entrance"] },
+  "md.meltdown_frozen": { "sounds": ["siege:meltdown/meltdown_frozen"] },
+  "md.meltdown_unfrozen": { "sounds": ["siege:meltdown/meltdown_unfrozen"] },
+  "md.teammate_freeze": { "sounds": ["siege:meltdown/teammate_freeze"] },
+  "md.teammate_unfreeze": { "sounds": ["siege:meltdown/teammate_unfreeze"] },
+  "md.telepickaxe": { "sounds": ["siege:meltdown/telepickaxe"] },
+  "main.overtimeintro": { "sounds": ["siege:main/overtimeintro"] },
+  "main.overtimeloop": { "sounds": ["siege:main/overtimeloop"] },
+  "main.roundend": { "sounds": ["siege:main/roundend"] },
+  "main.roundendmusic": { "sounds": ["siege:main/roundendmusic"] },
+  "main.scoreacquired": { "sounds": ["siege:main/scoreacquired"] },
+  "main.scoreunacquired": { "sounds": ["siege:main/scoreunacquired"] },
+  "main.shrink": { "sounds": ["siege:main/shrink"] },
+  "main.shrink_short": { "sounds": ["siege:main/shrink_short"] },
+  "main.smallcoins": { "sounds": ["siege:main/smallcoins"] },
+  "main.takeover": { "sounds": ["siege:main/takeover"] },
+  "main.teameliminated": { "sounds": ["siege:main/teameliminated"] },
+  "main.textpop": { "sounds": ["siege:main/textpop"] },
+  "main.unowhoop": { "sounds": ["siege:main/unowhoop"] },
+  "main.vacuum": { "sounds": ["siege:main/vacuum"] },
+  "main.winsound": { "sounds": ["siege:main/winsound"] },
+  "ui.click_normal": {
+    "sounds": [
+      "siege:ui/click_normal_1",
+      "siege:ui/click_normal_2",
+      "siege:ui/click_normal_3"
+    ]
+  },
+  "dodgebolt.arena_shrink": { "sounds": ["siege:dodgebolt/arena_shrink"] },
+  "dodgebolt.finalwin": { "sounds": ["siege:dodgebolt/finalwin"] },
+  "music.ace_race_main": { "sounds": ["siege:music/ace_race_main"] },
+  "music.battle_box_main": { "sounds": ["siege:music/battle_box_main"] },
+  "music.decisiondome": { "sounds": ["siege:music/decisiondome"] },
+  "music.dodgebolt": { "sounds": ["siege:music/dodgebolt"] },
+  "music.dodgebolt_fast": { "sounds": ["siege:music/dodgebolt_fast"] },
+  "music.eventintro": { "sounds": ["siege:music/eventintro"] },
+  "music.hub": { "sounds": ["siege:music/hub_music"] },
+  "music.finalannounce": { "sounds": ["siege:music/finalannounce"] },
+  "music.parkourtag": { "sounds": ["siege:music/parkourtag"] },
+  "music.railroadrush": { "sounds": ["siege:music/railroadrush"] },
+  "music.terra_swoop_force": { "sounds": ["siege:music/terraswoopforce"] },
+  "music.hub.music": { "sounds": ["siege:music/hub_music"] },
+  "music.hub.preevent": { "sounds": ["siege:music/hub_preevent"] },
+  "music.parkourwarrior": { "sounds": ["siege:music/parkourwarrior"] },
+  "music.rocketspleefrush": { "sounds": ["siege:music/rocketspleefrush"] },
+  "music.skybattle": { "sounds": ["siege:music/skybattle"] },
+  "music.survivalgames": { "sounds": ["siege:music/survivalgames"] },
+  "music.tgttosawaf": { "sounds": ["siege:music/tgttosawaf"] },
+  "music.walkoffame": { "sounds": ["siege:music/walkoffame"] },
+  "music.gridrunners": { "sounds": ["siege:music/gridrunners"] },
+  "music.meltdown": { "sounds": ["siege:music/meltdown"] },
+  "music.build_mart": { "sounds": ["siege:music/build_mart"] },
+  "music.sands_of_time": { "sounds": ["siege:music/sands_of_time"] },
+  "music.hole_in_the_wall": { "sounds": ["siege:music/hole_in_the_wall"] },
+  "music.auld_lang_syne": { "sounds": ["siege:music/auld_lang_syne"] },
+  "music.bingo_but_fast": { "sounds": ["siege:music/bingo_but_fast"] },
+  "music.walkout": { "sounds": ["siege:music/walkout"] },
+
+
+  "rsr.rocket_spleef_alert1": {
+    "sounds": ["siege:rsr/rocket_spleef_alert1"]
+  },
+  "rsr.rocket_spleef_alert2": {
+    "sounds": ["siege:rsr/rocket_spleef_alert2"]
+  },
+  "rsr.rocket_spleef_updraft": {
+    "sounds": ["siege:rsr/rocket_spleef_updraft"]
+  },
+  "main.meme_search": { "sounds": ["siege:main/meme_search"] }
+}

@@ -1,0 +1,12 @@
+{
+    "model": {
+        "type": "model",
+        "model": "siege:rsr/hand_cannon_loaded_2",
+        "tints": [
+            {
+                "type": "minecraft:potion",
+                "default": -13083194
+            }
+        ]
+    }
+}

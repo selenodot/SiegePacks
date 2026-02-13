@@ -1,0 +1,920 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "font/unicode_page_f9.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uF900\uF901\uF902\uF903\uF904\uF905\uF906\uF907\uF908\uF909\uF90A\uF90B\uF90C\uF90D\uF90E\uF90F",
+        "\uF910\uF911\uF912\uF913\uF914\uF915\uF916\uF917\uF918\uF919\uF91A\uF91B\uF91C\uF91D\uF91E\uF91F",
+        "\uF920\uF921\uF922\uF923\uF924\uF925\uF926\uF927\uF928\uF929\uF92A\uF92B\uF92C\uF92D\uF92E\uF92F",
+        "\uF930\uF931\uF932\uF933\uF934\uF935\uF936\uF937\uF938\uF939\uF93A\uF93B\uF93C\uF93D\uF93E\uF93F",
+        "\uF940\uF941\uF942\uF943\uF944\uF945\uF946\uF947\uF948\uF949\uF94A\uF94B\uF94C\uF94D\uF94E\uF94F",
+        "\uF950\uF951\uF952\uF953\uF954\uF955\uF956\uF957\uF958\uF959\uF95A\uF95B\uF95C\uF95D\uF95E\uF95F",
+        "\uF960\uF961\uF962\uF963\uF964\uF965\uF966\uF967\uF968\uF969\uF96A\uF96B\uF96C\uF96D\uF96E\uF96F",
+        "\uF970\uF971\uF972\uF973\uF974\uF975\uF976\uF977\uF978\uF979\uF97A\uF97B\uF97C\uF97D\uF97E\uF97F",
+        "\uF980\uF981\uF982\uF983\uF984\uF985\uF986\uF987\uF988\uF989\uF98A\uF98B\uF98C\uF98D\uF98E\uF98F",
+        "\uF990\uF991\uF992\uF993\uF994\uF995\uF996\uF997\uF998\uF999\uF99A\uF99B\uF99C\uF99D\uF99E\uF99F",
+        "\uF9A0\uF9A1\uF9A2\uF9A3\uF9A4\uF9A5\uF9A6\uF9A7\uF9A8\uF9A9\uF9AA\uF9AB\uF9AC\uF9AD\uF9AE\uF9AF",
+        "\uF9B0\uF9B1\uF9B2\uF9B3\uF9B4\uF9B5\uF9B6\uF9B7\uF9B8\uF9B9\uF9BA\uF9BB\uF9BC\uF9BD\uF9BE\uF9BF",
+        "\uF9C0\uF9C1\uF9C2\uF9C3\uF9C4\uF9C5\uF9C6\uF9C7\uF9C8\uF9C9\uF9CA\uF9CB\uF9CC\uF9CD\uF9CE\uF9CF",
+        "\uF9D0\uF9D1\uF9D2\uF9D3\uF9D4\uF9D5\uF9D6\uF9D7\uF9D8\uF9D9\uF9DA\uF9DB\uF9DC\uF9DD\uF9DE\uF9DF",
+        "\uF9E0\uF9E1\uF9E2\uF9E3\uF9E4\uF9E5\uF9E6\uF9E7\uF9E8\uF9E9\uF9EA\uF9EB\uF9EC\uF9ED\uF9EE\uF9EF",
+        "\uF9F0\uF9F1\uF9F2\uF9F3\uF9F4\uF9F5\uF9F6\uF9F7\uF9F8\uF9F9\uF9FA\uF9FB\uF9FC\uF9FD\uF9FE\uF9FF"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/unicode_page_ff.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uFF00\uFF01\uFF02\uFF03\uFF04\uFF05\uFF06\uFF07\uFF08\uFF09\uFF0A\uFF0B\uFF0C\uFF0D\uFF0E\uFF0F",
+        "\uFF10\uFF11\uFF12\uFF13\uFF14\uFF15\uFF16\uFF17\uFF18\uFF19\uFF1A\uFF1B\uFF1C\uFF1D\uFF1E\uFF1F",
+        "\uFF20\uFF21\uFF22\uFF23\uFF24\uFF25\uFF26\uFF27\uFF28\uFF29\uFF2A\uFF2B\uFF2C\uFF2D\uFF2E\uFF2F",
+        "\uFF30\uFF31\uFF32\uFF33\uFF34\uFF35\uFF36\uFF37\uFF38\uFF39\uFF3A\uFF3B\uFF3C\uFF3D\uFF3E\uFF3F",
+        "\uFF40\uFF41\uFF42\uFF43\uFF44\uFF45\uFF46\uFF47\uFF48\uFF49\uFF4A\uFF4B\uFF4C\uFF4D\uFF4E\uFF4F",
+        "\uFF50\uFF51\uFF52\uFF53\uFF54\uFF55\uFF56\uFF57\uFF58\uFF59\uFF5A\uFF5B\uFF5C\uFF5D\uFF5E\uFF5F",
+        "\uFF60\uFF61\uFF62\uFF63\uFF64\uFF65\uFF66\uFF67\uFF68\uFF69\uFF6A\uFF6B\uFF6C\uFF6D\uFF6E\uFF6F",
+        "\uFF70\uFF71\uFF72\uFF73\uFF74\uFF75\uFF76\uFF77\uFF78\uFF79\uFF7A\uFF7B\uFF7C\uFF7D\uFF7E\uFF7F",
+        "\uFF80\uFF81\uFF82\uFF83\uFF84\uFF85\uFF86\uFF87\uFF88\uFF89\uFF8A\uFF8B\uFF8C\uFF8D\uFF8E\uFF8F",
+        "\uFF90\uFF91\uFF92\uFF93\uFF94\uFF95\uFF96\uFF97\uFF98\uFF99\uFF9A\uFF9B\uFF9C\uFF9D\uFF9E\uFF9F",
+        "\uFFA0\uFFA1\uFFA2\uFFA3\uFFA4\uFFA5\uFFA6\uFFA7\uFFA8\uFFA9\uFFAA\uFFAB\uFFAC\uFFAD\uFFAE\uFFAF",
+        "\uFFB0\uFFB1\uFFB2\uFFB3\uFFB4\uFFB5\uFFB6\uFFB7\uFFB8\uFFB9\uFFBA\uFFBB\uFFBC\uFFBD\uFFBE\uFFBF",
+        "\uFFC0\uFFC1\uFFC2\uFFC3\uFFC4\uFFC5\uFFC6\uFFC7\uFFC8\uFFC9\uFFCA\uFFCB\uFFCC\uFFCD\uFFCE\uFFCF",
+        "\uFFD0\uFFD1\uFFD2\uFFD3\uFFD4\uFFD5\uFFD6\uFFD7\uFFD8\uFFD9\uFFDA\uFFDB\uFFDC\uFFDD\uFFDE\uFFDF",
+        "\uFFE0\uFFE1\uFFE2\uFFE3\uFFE4\uFFE5\uFFE6\uFFE7\uFFE8\uFFE9\uFFEA\uFFEB\uFFEC\uFFED\uFFEE\uFFEF",
+        "\uFFF0\uFFF1\uFFF2\uFFF3\uFFF4\uFFF5\uFFF6\uFFF7\uFFF8\uFFF9\uFFFA\uFFFB\uFFFC\uFFFD\uFFFE\uFFFF"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/hub/coin_1_5.png",
+      "ascent": 20,
+      "height": 40,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/hub/coin_2.png",
+      "ascent": 20,
+      "height": 40,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/hub/coin_2_5.png",
+      "ascent": 20,
+      "height": 40,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/hub/coin_3.png",
+      "ascent": 20,
+      "height": 40,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/hub/coin_particles_1.png",
+      "ascent": 80,
+      "height": 120,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/hub/coin_particles_2.png",
+      "ascent": 80,
+      "height": 120,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/hub/coin_particles_3.png",
+      "ascent": 80,
+      "height": 120,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/hub/coin_particles_4.png",
+      "ascent": 80,
+      "height": 120,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/hub/coin_particles_5.png",
+      "ascent": 80,
+      "height": 120,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/hub/coin_particles_6.png",
+      "ascent": 80,
+      "height": 120,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/hub/coin_particles_7.png",
+      "ascent": 80,
+      "height": 120,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/intro/acerace.png",
+      "ascent": 40,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/intro/dodgebolt.png",
+      "ascent": 40,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/intro/battlebox.png",
+      "ascent": 40,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/intro/holeinthewall.png",
+      "ascent": 40,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/intro/skybattle.png",
+      "ascent": 40,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/intro/bingobutfast.png",
+      "ascent": 40,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/intro/tgttosawaf.png",
+      "ascent": 40,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/intro/buildmart.png",
+      "ascent": 40,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/intro/gridrunners.png",
+      "ascent": 40,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/intro/meltdown.png",
+      "ascent": 40,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/intro/parkourtag.png",
+      "ascent": 40,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/intro/parkourwarrior.png",
+      "ascent": 40,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/intro/rocketspleefrush.png",
+      "ascent": 40,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/intro/survivalgames.png",
+      "ascent": 40,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/intro/skyblockle.png",
+      "ascent": 40,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e1.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e2.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e3.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e5.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e6.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e7.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e9.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e10.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e11.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e14.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e15.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e17.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e18.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e19.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e20.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e21.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e22.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e23.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e25.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e26.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e28.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e29.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e30.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e31.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e33.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e35.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e37.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e42.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e44.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e45.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/emoji/e46.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/dodgebolt/win_red.png",
+      "ascent": 60,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/dodgebolt/win_orange.png",
+      "ascent": 60,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/dodgebolt/win_yellow.png",
+      "ascent": 60,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/dodgebolt/win_lime.png",
+      "ascent": 60,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/dodgebolt/win_green.png",
+      "ascent": 60,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/dodgebolt/win_cyan.png",
+      "ascent": 60,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/dodgebolt/win_aqua.png",
+      "ascent": 60,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/dodgebolt/win_blue.png",
+      "ascent": 60,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/dodgebolt/win_purple.png",
+      "ascent": 60,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/dodgebolt/win_pink.png",
+      "ascent": 60,
+      "height": 80,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/dodgebolt/light1.png",
+      "ascent": 134,
+      "height": 231,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/dodgebolt/light2.png",
+      "ascent": 134,
+      "height": 231,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/dodgebolt/light3.png",
+      "ascent": 134,
+      "height": 231,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/dodgebolt/light4.png",
+      "ascent": 134,
+      "height": 231,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/dodgebolt/light5.png",
+      "ascent": 134,
+      "height": 231,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/dodgebolt/light6.png",
+      "ascent": 134,
+      "height": 231,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/ar.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/bb.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/bbf.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/bm.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/db.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/gr.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/hitw.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/md.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/pkt.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/pkw.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/rsr.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/sb.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/sg.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/sot.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/tgttos.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/sbl.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "unicode/icons/hitf.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["\uED10"]
+    },
+    {
+      "type": "bitmap",
+      "file": "siege:custom/_font/transition.png",
+      "ascent": 250,
+      "height": 1200,
+      "chars": ["\uFDFF"]
+    },
+        {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/aqua.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/aqua_big.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/aqua_glow.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/blue.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/blue_big.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/blue_glow.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/cyan.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/cyan_big.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/cyan_glow.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/green.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/green_big.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/green_glow.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/lime.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/lime_big.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/lime_glow.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/orange.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/orange_big.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/orange_glow.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/pink.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/pink_big.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/pink_glow.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/purple.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/purple_big.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/purple_glow.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/red.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/red_big.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/red_glow.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/spectator.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/emojis/noxcrew.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/yellow.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/yellow_big.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/noxcrew.png",
+      "chars": ["仆"],
+      "ascent": 7,
+      "height": 16
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/team/yellow_glow.png",
+      "chars": [""],
+      "ascent": 7,
+      "height": 16
+    }
+  ]
+}

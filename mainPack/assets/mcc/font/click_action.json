@@ -1,0 +1,25 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/click_action_left.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\uE000"]
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/click_action_right.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\uE001"]
+    },
+    {
+      "type": "bitmap",
+      "file": "mcc:_fonts/click_action_shift.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\uE002"]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "pack": {
+    "pack_format": 61,
+    "min_format": 61,
+    "max_format": 99999,
+    "supported_formats": {
+      "min_inclusive": 61,
+      "max_inclusive": 99999
+    },
+    "description": "SiegeMCC Global Resource Pack"
+  },
+
+  "sodium": {
+    "ignored_shaders": [
+      "rendertype_cutout.json",
+      "rendertype_cutout_mipped.json",
+      "rendertype_solid.json",
+      "rendertype_translucent.json",
+      "rendertype_tripwire.json",
+      "light.glsl",
+      "fog.glsl"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "model": {
+        "type": "model",
+        "model": "siege:hub/birthday_balloon",
+        "tints": [
+            {
+                "type": "minecraft:potion",
+                "default": -13083194
+            }
+        ]
+    }
+}
