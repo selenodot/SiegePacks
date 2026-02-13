@@ -44,7 +44,7 @@ jobs:
       - name: Create SOT ZIP
         run: |
           rm -f siege-SOT.zip
-          sotPack
+          cd sotPack
           zip -r ../siege-SOT.zip . -x ".git/*" ".github/*"
           cd ..
 
