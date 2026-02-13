@@ -52,12 +52,17 @@ jobs:
           echo "$SHA1" > siege-main.hash
 
       - name: Upload MAIN ZIP to release
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: mainLatest
-          files: siege-main.zip
+        run: |
+          # Delete release if it already exists (ignore error)
+          gh release delete mainLatest --yes || true
+
+          # Create release and upload file
+          gh release create mainLatest siege-main.zip \
+            --title "mainLatest" \
+            --notes "Automated build"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
       - name: Upload hash artifact
         uses: actions/upload-artifact@v4
