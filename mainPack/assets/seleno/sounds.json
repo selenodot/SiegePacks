@@ -2,5 +2,8 @@
   "elevator.siege1": { "sounds": ["seleno:elevator_jokes/siege1"] },
 
   "transgirl.intro": {"sounds": ["seleno:random_shit/trans_girl_intro"]},
-  "transgirl.dome": {"sounds": ["seleno:random_shit/trans_girl_dome"]}
+  "transgirl.dome": {"sounds": ["seleno:random_shit/trans_girl_dome"]},
+
+  "gaygirl.intro": {"sounds": ["seleno:random_shit/gay_girl_intro"]},
+  "gaygirl.dome": {"sounds": ["seleno:random_shit/gay_girl_dome"]}
 }
